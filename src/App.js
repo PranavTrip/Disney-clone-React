@@ -8,7 +8,7 @@ const App = (props) => {
       <Router>
       <Header />
         <Routes>
-          <Route exact path="/login" element={<Login />}></Route>
+          <Route exact path="/" element={<Login />}></Route>
         </Routes>
       </Router>
     </>
